@@ -1,9 +1,17 @@
 /* 
+Bottaro Juan Manuel
+E/S 04
 Debemos lograr tomar un dato por 'PROMPT' 
 y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	alert("ok");
+	var nombreIngresado;
+    //nombreIngresado=txtIdNombre.value;
+	//alert("ok");
+    //nombreIngresado= document.getElementById('txtIdNombre').value;
+    //alert (nombreIngresado);
+    nombreIngresado= prompt("ingrese su nombre");
+    document.getElementById('txtIdNombre').value="Su nombre es "+nombreIngresado;
 }
 
